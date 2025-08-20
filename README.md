@@ -99,10 +99,6 @@ result = model.predict(input_data)
 ## 📁 Project Structure
 
 ```
-├── configs/                 # Configuration files
-│   ├── train_config.yaml
-│   ├── eval_config.yaml
-│   └── model_config.yaml
 ├── src/                     # Source code
 │   ├── model/              # Model implementations
 │   ├── data/               # Data loading and processing
@@ -115,10 +111,6 @@ result = model.predict(input_data)
 └── tests/                  # Unit tests
 ```
 
-
-## 🙏 Acknowledgments
-
-We thank [acknowledge any funding, collaborators, or resources used].
 
 ## 📖 Citation
 
