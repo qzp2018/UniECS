@@ -132,9 +132,3 @@ If you find this work useful, please cite:
   year={2024}
 }
 ```
-
-## 🔗 Related Work
-
-- [Related Paper 1](link): Brief description
-- [Related Paper 2](link): Brief description
-- [Related Paper 3](link): Brief description
