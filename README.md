@@ -16,6 +16,9 @@ Our main contributions include:
 - **Technical Advances**: A gated multimodal encoder with adaptive fusion capabilities is introduced, which effectively handles missing modalities. It is paired with a training strategy that enhances cross-modal alignment and representation quality through specialized loss functions. 
 - **Benchmark**: M-BEER, a comprehensive benchmark, is created, containing 50K product pairs for evaluating e-commerce search. Each sample includes trigger text, trigger image, recall text, and recall image, enabling standardized evaluation of nine distinct retrieval scenarios.
 
+<img width="3830" height="838" alt="image" src="https://github.com/user-attachments/assets/d28e8870-bb5f-4268-a10e-1b2344e4b714" />
+
+
 ## 🗂️ Dataset
 
 [If you have a dataset]
@@ -93,44 +96,6 @@ model = YourModel.load_pretrained('path/to/checkpoint')
 result = model.predict(input_data)
 ```
 
-## 📊 Results
-
-### Main Results
-
-[Present your main experimental results, preferably in table format]
-
-| Method | Dataset 1 | Dataset 2 | Dataset 3 |
-|--------|-----------|-----------|-----------|
-| Baseline 1 | X.X | X.X | X.X |
-| Baseline 2 | X.X | X.X | X.X |
-| **Ours** | **X.X** | **X.X** | **X.X** |
-
-### Ablation Studies
-
-[If you have ablation studies]
-
-| Component | Dataset 1 | Dataset 2 |
-|-----------|-----------|-----------|
-| Full Model | X.X | X.X |
-| w/o Component A | X.X | X.X |
-| w/o Component B | X.X | X.X |
-
-## 🏷️ Model Zoo
-
-[If you release pre-trained models]
-
-We provide pre-trained model checkpoints in [🤗 Checkpoints](YOUR_HUGGINGFACE_MODELS).
-
-| Model Name | Version | Model Size | Performance | Download Link |
-|------------|---------|------------|-------------|---------------|
-| YourModel-Base | v1.0 | XXX MB | XX.X% | [Download](LINK) |
-| YourModel-Large | v1.0 | XXX GB | XX.X% | [Download](LINK) |
-
-You can download them by:
-```bash
-git clone https://huggingface.co/YOUR_USERNAME/YOUR_MODELS
-```
-
 ## 📁 Project Structure
 
 ```
@@ -150,56 +115,6 @@ git clone https://huggingface.co/YOUR_USERNAME/YOUR_MODELS
 └── tests/                  # Unit tests
 ```
 
-## 🔧 Advanced Usage
-
-### Custom Dataset
-
-To use your own dataset:
-
-1. Prepare your data in the required format (see `data/README.md`)
-2. Update the data loading configuration in `configs/data_config.yaml`
-3. Run training with your custom dataset
-
-### Hyperparameter Tuning
-
-Key hyperparameters that can be tuned:
-
-- `learning_rate`: Learning rate for optimization
-- `batch_size`: Training batch size
-- `num_epochs`: Number of training epochs
-- `model_size`: Model architecture size
-
-### Multi-GPU Training
-
-For multi-GPU training:
-
-```bash
-torchrun --nproc_per_node=8 src/training/train_multi_gpu.py --config configs/train_config.yaml
-```
-
-## 📚 Documentation
-
-[If you have additional documentation]
-
-For detailed documentation, please refer to:
-- [API Documentation](docs/api.md)
-- [Training Guide](docs/training.md)
-- [Evaluation Guide](docs/evaluation.md)
-
-## 🤝 Contributing
-
-We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
-## 📄 License
-
-This project is licensed under the [LICENSE_TYPE] License - see the [LICENSE](LICENSE) file for details.
-
-## 📞 Contact
-
-- [Your Name]: [your.email@institution.edu](mailto:your.email@institution.edu)
-- [Co-author Name]: [coauthor.email@institution.edu](mailto:coauthor.email@institution.edu)
-
-For questions about this work, please contact [Your Name] at [your.email@institution.edu].
 
 ## 🙏 Acknowledgments
 
