@@ -53,10 +53,9 @@ cd scripts/
 bash train.sh
 ```
 
-Before running, please:
-- Modify the `DATA_DIR` in `train.sh` to point to your dataset directory
-- Modify the `OUTPUT_DIR` in `train.sh` to your desired checkpoint output directory
-- Adjust hyperparameters in `configs/train_config.yaml`
+Before running, please modify the data root in `train.sh` to point to your dataset and checkpoint directory.
+
+**Noting!!:** For training efficiency, the validation results shown during training are evaluated within a batch, so **they are not the true evaluation results!!**
 
 ### Evaluation
 
