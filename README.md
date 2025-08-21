@@ -20,27 +20,20 @@ Our main contributions include:
 
 
 ## 🗂️ Dataset
+ [🤗 Dataset](YOUR_HUGGINGFACE_DATASET_LINK) coming soon!.
 
-[If you have a dataset]
-
-We provide the [Dataset Name] dataset in the [🤗 Dataset](YOUR_HUGGINGFACE_DATASET_LINK).
-
-Please follow the instructions provided on the HF page to download the dataset and prepare the data for training and evaluation.
-
-You need to set up Git LFS and directly clone the repo:
-```bash
-git clone https://huggingface.co/datasets/YOUR_USERNAME/YOUR_DATASET
-```
 
 ## 🛠️ Installation
 
-Prepare the codebase and Conda environment using the following commands:
+Prepare the codebase and Conda environment just following Chinese-clip:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO
-cd YOUR_REPO
-conda env create -f environment.yml
-conda activate your_env_name
+git clone https://github.com/qzp2018/UniECS.git
+cd UniECS
+conda env create -n uniecs python=3.8
+conda activate uniecs
+pip install -r requirements.txt
+pip install cn_clip
 ```
 
 ### Requirements
@@ -48,7 +41,6 @@ conda activate your_env_name
 - Python >= 3.8
 - PyTorch >= 1.12.0
 - CUDA >= 11.0 (for GPU training)
-- [List other major dependencies]
 
 ## 🚀 Quick Start
 
