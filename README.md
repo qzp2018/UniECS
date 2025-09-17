@@ -108,10 +108,10 @@ result = model.predict(input_data)
 If you find this work useful, please cite:
 
 ```bibtex
-@inproceedings{Liang2025UniECSUM,
+@article{liang2025uniecs,
   title={UniECS: Unified Multimodal E-Commerce Search Framework with Gated Cross-modal Fusion},
-  author={Zihan Liang and Yufei Ma and ZhiPeng Qian and Huangyu Dai and Zihan Wang and Ben Chen and Chenyi Lei and Yuqing Ding and Han Li},
-  year={2025},
-  url={https://api.semanticscholar.org/CorpusID:280686395}
+  author={Liang, Zihan and Ma, Yufei and Qian, ZhiPeng and Dai, Huangyu and Wang, Zihan and Chen, Ben and Lei, Chenyi and Ding, Yuqing and Li, Han},
+  journal={arXiv preprint arXiv:2508.13843},
+  year={2025}
 }
 ```
